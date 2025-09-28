@@ -112,7 +112,7 @@ no-reels/
 
 - **WhatsApp**: [wa.me/213698409826](https://wa.me/213698409826)
 - **الموقع**: [pexlat.com](https://pexlat.com)
-- **GitHub Issues**: [الإبلاغ عن مشكلة](https://github.com/aissahoua/issues)
+- **GitHub Issues**: [الإبلاغ عن مشكلة](https://github.com/aissahoua/no-reels/issues)
 
 ---
 
