@@ -1,125 +1,129 @@
-# No Reels - حظر المحتوى القصير 🚫📱
+<p align="right">
+  <a href="README.ar.md">🇸🇦 العربية</a>
+</p>
 
-**إضافة متصفح مجانية ومفتوحة المصدر لزيادة الإنتاجية عبر منع المحتوى القصير الضار في منصات التواصل الاجتماعي.**
+# No Reels - Block Short Content 🚫📱
+
+**A free, open-source browser extension designed to boost productivity by blocking harmful short-form content across major social media platforms.**
 
 ---
 
-## 🎯 الهدف
+## 🎯 Mission
 
-منصات المحتوى القصير مثل فيسبوك ريلز، إنستغرام ريلز، يوتيوب شورتس، وتيك توك مصممة لجذب انتباهك لساعات طويلة. **No Reels** يساعدك على استعادة السيطرة على استهلاكك الرقمي وتوجيه طاقتك نحو أنشطة أكثر إنتاجية.
+Short-form content platforms like Facebook Reels, Instagram Reels, YouTube Shorts, and TikTok are designed to capture your attention for hours on end. **No Reels** helps you regain control over your digital consumption and redirect your energy toward more productive activities.
 
-## ✨ المميزات الرئيسية
+## ✨ Key Features
 
-### 🎨 **واجهة عصرية**
-- تصميم Glassmorphism مع الوضع المظلم
-- واجهة متجاوبة وبديهية
-- حركات وانتقالات سلسة
+### 🎨 **Modern Interface**
+- Glassmorphism design with dark mode support
+- Responsive and intuitive interface
+- Smooth animations and transitions
 
-### 🌐 **دعم متعدد المنصات**
-- **فيسبوك**: حظر محتوى الريلز
-- **إنستغرام**: حظر منشورات وقصص الريلز  
-- **يوتيوب**: حظر مقاطع الشورتس
-- **تيك توك**: حظر كامل للمنصة
+### 🌐 **Multi-Platform Support**
+- **Facebook**: Blocks Reels content
+- **Instagram**: Blocks Reels posts and stories
+- **YouTube**: Blocks Shorts videos
+- **TikTok**: Complete platform blocking
 
-### ⏰ **نظام التعطيل المؤقت الذكي**
-- راحة سريعة لمدة 10 دقائق
-- راحة ممتدة لمدة 30 دقيقة
-- إعادة تفعيل تلقائية مع إشعارات
-- مؤقتات مرئية للعد التنازلي
+### ⏰ **Smart Temporary Disable System**
+- Quick 10-minute break option
+- Extended 30-minute break option
+- Automatic reactivation with notifications
+- Visual countdown timers
 
-### 🔒 **نظام حماية متقدم**
-- تأكيد دائم يتطلب كتابة نص
-- حماية ضد الأتمتة (منع النسخ واللصق)
-- تأكيد بعد 3 محاولات تعطيل مؤقتة
+### 🔒 **Advanced Protection System**
+- Permanent disable requires text confirmation
+- Anti-automation protection (prevents copy-paste)
+- Confirmation after 3 temporary disable attempts
 
-### 🌍 **دعم متعدد اللغات**
-- العربية (دعم كامل للـ RTL)
-- الإنجليزية
-- الفرنسية
-- اكتشاف تلقائي بناءً على لغة المتصفح
+### 🌍 **Multi-Language Support**
+- Arabic (full RTL support)
+- English
+- French
+- Auto-detection based on browser language
 
-## 🚀 التثبيت
+## 🚀 Installation
 
-### من متجر Chrome (قريباً)
-[رابط إلى متجر Chrome]
+### From Chrome Web Store (Coming Soon)
+[Chrome Web Store Link]
 
-### التثبيت اليدوي (ملف .crx)
-1. نزل أحدث ملف `.crx` من [صفحة الإصدارات]https://github.com/aissahoua/no-reels/releases/download/v1.0.0/no.reels.crx).
-2. افتح Chrome واذهب إلى `chrome://extensions`.
-3. فعّل "وضع المطور" في الزاوية اليمنى العليا.
-4. اسحب وأفلت ملف `.crx` الذي نزلته داخل صفحة الملحقات.
-5. أكد التثبيت عند الطلب.
+### Manual Installation (.crx file)
+1. Download the latest `.crx` file from [releases page](https://github.com/aissahoua/no-reels/releases/download/v1.0.0/no.reels.crx)
+2. Open Chrome and navigate to `chrome://extensions`
+3. Enable "Developer mode" in the top right corner
+4. Drag and drop the downloaded `.crx` file into the extensions page
+5. Confirm the installation when prompted
 
-### باستخدام CRX Emulator
-يمكنك أيضاً استخدام [CRX Emulator](https://chromewebstore.google.com/detail/crx-emulator/) لتثبيت ملف `.crx`:
-1. ثبّت CRX Emulator من متجر Chrome.
-2. بعد تثبيت CRX-Emulator، انقر أيقونته في المتصفح وارفع ملف .crx الذي تم تحميله.
-3. اسمح بالأذونات المطلوبة وانتهى! ستعمل الإضافة فوراً دون الحاجة لإعادة تشغيل المتصفح.
+### Using CRX Emulator
+You can also use [CRX Emulator](https://chromewebstore.google.com/detail/crx-emulator/) to install the `.crx` file:
+1. Install CRX Emulator from Chrome Web Store
+2. After installing CRX-Emulator, click its icon in the browser and upload the downloaded .crx file
+3. Allow the required permissions and you're done! The extension will work immediately without needing to restart the browser
 
-### للمطورين
+### For Developers
 ```bash
 git clone https://github.com/aissahoua/no-reels.git
 cd no-reels
 ```
 
-1. افتح `chrome://extensions/`
-2. فعّل "وضع المطور"
-3. انقر "تحميل غير مُعبأ"
-4. اختر مجلد المشروع
+1. Open `chrome://extensions/`
+2. Enable "Developer mode"
+3. Click "Load unpacked"
+4. Select the project folder
 
-### للمستخدمين
-**قريباً** على Chrome Web Store و Microsoft Edge Add-ons
+### For Users
+**Coming Soon** on Chrome Web Store and Microsoft Edge Add-ons
 
-## 📖 الاستخدام
+## 📖 Usage
 
-1. **إدارة المنصات**: انقر أيقونة الإضافة وقم بتشغيل/إيقاف المنصات
-2. **التعطيل المؤقت**: اختر 10 أو 30 دقيقة للراحة القصيرة
-3. **التعطيل الدائم**: اكتب نص التأكيد للتعطيل الكامل
+1. **Platform Management**: Click the extension icon and toggle platforms on/off
+2. **Temporary Disable**: Choose 10 or 30 minutes for a short break
+3. **Permanent Disable**: Type the confirmation text to completely disable
 
-## 🛠️ التطوير
+## 🛠️ Development
 
-### المتطلبات
+### Requirements
 - Chrome/Edge 88+
-- معرفة أساسية بـ JavaScript, HTML, CSS
+- Basic knowledge of JavaScript, HTML, CSS
 
-### بنية المشروع
+### Project Structure
 ```
 no-reels/
-├── manifest.json     # بيان الإضافة
-├── popup.html/css/js # واجهة المستخدم
-├── content.js        # حظر المحتوى
-├── background.js     # إدارة المؤقتات
-├── languages.js      # دعم اللغات
-└── icons/           # أيقونات الإضافة
+├── manifest.json     # Extension manifest
+├── popup.html/css/js # User interface
+├── content.js        # Content blocking
+├── background.js     # Timer management
+├── languages.js      # Language support
+└── icons/           # Extension icons
 ```
 
-## 🔒 الخصوصية
+## 🔒 Privacy
 
-- ✅ لا جمع للبيانات الشخصية
-- ✅ تخزين محلي فقط
-- ✅ لا اتصالات خارجية
-- ✅ عمل بدون اتصال بالإنترنت
+- ✅ No personal data collection
+- ✅ Local storage only
+- ✅ No external connections
+- ✅ Works offline
 
-## 🤝 المساهمة
+## 🤝 Contributing
 
-نرحب بالمساهمات! يمكنك:
-- الإبلاغ عن الأخطاء
-- اقتراح ميزات جديدة
-- تحسين الكود والوثائق
-- إضافة ترجمات جديدة
+We welcome contributions! You can:
+- Report bugs
+- Suggest new features
+- Improve code and documentation
+- Add new translations
 
-## 📞 الدعم
+## 📞 Support
 
 - **WhatsApp**: [wa.me/213698409826](https://wa.me/213698409826)
-- **الموقع**: [pexlat.com](https://pexlat.com)
-- **GitHub Issues**: [الإبلاغ عن مشكلة](https://github.com/aissahoua/no-reels/issues)
+- **Website**: [pexlat.com](https://pexlat.com)
+- **GitHub Issues**: [Report an issue](https://github.com/aissahoua/no-reels/issues)
 
 ---
 
 <div align="center">
 
-**صُنع بـ ❤️ للعافية الرقمية والإنتاجية**
+**Made with ❤️ for digital wellness and productivity**
 
-[⬆️ العودة للأعلى](#no-reels---حظر-المحتوى-القصير-)
+[⬆️ Back to top](#no-reels---block-short-content-)
 
 </div>
