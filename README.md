@@ -1,10 +1,7 @@
-<div align="right">
-  <strong>
-    <a href="README.ar.md" style="text-decoration: none; padding: 8px 16px; background: linear-gradient(135deg, #2E8B57, #32CD32); color: white; border-radius: 20px; font-size: 14px; font-weight: bold; display: inline-block;">
-      🇸🇦 العربية
-    </a>
-  </strong>
-</div>
+<p align="right">
+  <strong><a href="README.ar.md">اللغة العربية</a></strong>
+</p>
+
 
 ---
 
