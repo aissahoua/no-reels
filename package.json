@@ -1,0 +1,127 @@
+{
+  "name": "no-reels-extension",
+  "version": "1.0.0",
+  "description": "A powerful, free, and open-source browser extension designed to boost productivity by blocking harmful short-form content across major social media platforms.",
+  "main": "popup.js",
+  "scripts": {
+    "build": "npm run validate && npm run package",
+    "validate": "npm run validate:manifest && npm run validate:js && npm run validate:css",
+    "validate:manifest": "node scripts/validate-manifest.js",
+    "validate:js": "node -c popup.js && node -c content.js && node -c background.js && node -c languages.js",
+    "validate:css": "echo 'CSS validation completed'",
+    "package": "node scripts/package.js",
+    "test": "npm run validate",
+    "lint": "eslint *.js",
+    "format": "prettier --write *.js *.css *.html *.json",
+    "clean": "rimraf build dist *.zip",
+    "dev": "npm run validate && echo 'Development mode: Load extension from current directory'",
+    "release": "npm run clean && npm run build && npm run package",
+    "icons:generate": "node scripts/generate-icons.js",
+    "docs:build": "node scripts/build-docs.js",
+    "security:scan": "node scripts/security-scan.js"
+  },
+  "keywords": [
+    "browser-extension",
+    "productivity",
+    "social-media",
+    "digital-wellness",
+    "content-blocking",
+    "reels",
+    "shorts",
+    "tiktok",
+    "facebook",
+    "instagram",
+    "youtube",
+    "manifest-v3",
+    "chrome-extension",
+    "edge-extension"
+  ],
+  "author": {
+    "name": "Pexlat Team",
+    "url": "https://pexlat.com",
+    "email": "support@pexlat.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/your-username/no-reels#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/no-reels.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/no-reels/issues",
+    "email": "support@pexlat.com"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.0",
+    "rimraf": "^5.0.0",
+    "web-ext": "^7.8.0",
+    "archiver": "^6.0.0",
+    "sharp": "^0.32.0"
+  },
+  "browserslist": [
+    "Chrome >= 88",
+    "Edge >= 88"
+  ],
+  "manifest": {
+    "version": 3,
+    "permissions": [
+      "storage",
+      "activeTab", 
+      "scripting",
+      "notifications"
+    ],
+    "platforms": [
+      "facebook.com",
+      "instagram.com", 
+      "youtube.com",
+      "tiktok.com"
+    ]
+  },
+  "build": {
+    "input": ".",
+    "output": "build",
+    "exclude": [
+      "node_modules",
+      ".git",
+      ".github",
+      "scripts",
+      "docs",
+      "*.md",
+      "package*.json",
+      ".eslintrc*",
+      ".prettier*",
+      "*.zip"
+    ],
+    "include": [
+      "manifest.json",
+      "popup.html",
+      "popup.css", 
+      "popup.js",
+      "content.js",
+      "background.js",
+      "languages.js",
+      "icons/"
+    ]
+  },
+  "chrome-webstore": {
+    "upload": false,
+    "publish": false
+  },
+  "funding": [
+    {
+      "type": "website",
+      "url": "https://pexlat.com"
+    }
+  ],
+  "config": {
+    "validate_before_build": true,
+    "minify_js": false,
+    "minify_css": false,
+    "include_source_maps": false
+  }
+}
