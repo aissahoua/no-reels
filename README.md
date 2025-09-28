@@ -44,7 +44,7 @@
 [رابط إلى متجر Chrome]
 
 ### التثبيت اليدوي (ملف .crx)
-1. نزل أحدث ملف `.crx` من [صفحة الإصدارات](https://github.com/your-username/no-reels/releases).
+1. نزل أحدث ملف `.crx` من [صفحة الإصدارات]https://github.com/aissahoua/no-reels/releases/download/v1.0.0/no.reels.crx).
 2. افتح Chrome واذهب إلى `chrome://extensions`.
 3. فعّل "وضع المطور" في الزاوية اليمنى العليا.
 4. اسحب وأفلت ملف `.crx` الذي نزلته داخل صفحة الملحقات.
@@ -58,7 +58,7 @@
 
 ### للمطورين
 ```bash
-git clone https://github.com/your-username/no-reels.git
+git clone https://github.com/aissahoua/no-reels.git
 cd no-reels
 ```
 
